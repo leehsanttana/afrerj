@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFRERJ - Quem somos</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-blue">
+        <a class="navbar-brand text-light" href="index.html">AFRERJ</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="quem_somos.html">Quem Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="links.html">Links</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="contatos.html">Contatos</a>
+              </li>    
+            </ul>
+          </div>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
+            
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                   <a class="nav-link text-success" href="amaferj.html">AMAFRERJ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="entrar.html">Entrar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="inscreva-se.html">Inscreva-se</a>
+                </li>    
+            </ul>
+          </div>  
+    </nav>
+
+    <div class="container-fluid pt-5 pb-5">
+
+        <div class="row">
+            <div class="col-lg-12 bg-blue2">
+                <h2 class="text-light text-center p-3">Seja Sócio</h2>
+            </div>
+        </div>
+
+        <div class="row pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                    
+                        <p>Existem dois tipos de inscrições para o ingresso na AFRERJ: Auditor Fiscal (integrante da categoria que, regularmente, paga as contribuições estatutárias) e Pensionista (beneficiário do associado falecido).</p>
+
+                        <h4>É necessária a presença do solicitante na sede da AFRERJ, para a assinatura do contrato e da ficha da mútua.</h4>
+
+                        <p class="text-center">Clique no botão azul para abrir ou fechar o ficheiro de inscrição.</p>
+                        
+                    </div>
+                    
+                    
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 p-3">
+
+                        <div id="accordion">
+    
+                            <div class="card p-3">
+                                <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseOne">
+                                    <a class="collapsed card-link text-center text-light" data-toggle="collapse" href="#collapseOne">
+                                    <h4>FICHA DE ADMISSÃO DE FISCAL</h4>
+                                    </a>
+                                </button>
+                                <div id="collapseOne" class="collapse show pt-2" data-parent="#accordion">
+                                    <form action="/action_page.php" class="needs-validation">
+                                        <div class="form-group">
+                                            <label for="nome">Nome Completo:</label>
+                                            <input type="text" class="form-control" placeholder="Digite seu Nome Completo:" id="nome" name="nome" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="matricula">Matrícula funcional:</label>
+                                            <input type="text" class="form-control" placeholder="Digite sua Matrícula:" id="matricula" name="matricula" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="data_nascimento">Data de Nascimento:</label>
+                                            <input type="date" class="form-control" placeholder="Digite sua Matrícula:" id="data_nascimento" name="data_nascimento" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <label for="sexo">Sexo:</label><br>
+                                        <div class="form-check-inline">
+                                            <label class="form-check-label">
+                                              <input type="radio" class="form-check-input" name="optradio">Masculino
+                                            </label>
+                                          </div>
+                                          <div class="form-check-inline">
+                                            <label class="form-check-label">
+                                              <input type="radio" class="form-check-input" name="optradio">Feminino
+                                            </label>
+                                          </div>
+                                          <div class="form-check-inline disabled">
+                                            <label class="form-check-label">
+                                              <input type="radio" class="form-check-input" name="optradio" disabled>Não Opinar
+                                            </label>
+                                          </div>
+                                          <br>
+                                          <br>
+                                          <div class="form-group">
+                                            <label for="sel1">Estado Civil:</label>
+                                            <select class="form-control" id="sel1">
+                                              <option>Solteiro</option>
+                                              <option>Casado</option>
+                                              <option>Separado</option>
+                                              <option>Divorciado</option>
+                                              <option>Viúvo</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="usr">Nacionalidade:</label>
+                                            <input type="text" class="form-control" placeholder="Nacionalidade:" id="nacionalidade" name="nacionalidade" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="usr">Naturalidade:</label>
+                                            <input type="text" class="form-control" placeholder="Naturalidade:" id="naturaldiade" name="naturalidade" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="usr">Ocupação Principal:</label>
+                                            <input type="text" class="form-control" placeholder="Ocupação Principal:" id="ocupacao" name="ocupacao" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="usr">CPF:</label>
+                                            <input type="text" class="form-control" placeholder="Digite seu CPF:" id="cpf" name="cpf" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="usr">RG:</label>
+                                            <input type="text" class="form-control" placeholder="Digite seu RG:" id="rg" name="rg" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="data_nascimento">Data de Expedição:</label>
+                                            <input type="date" class="form-control" placeholder="Digite sua Matrícula:" id="data_expedicao" name="data_expedicao" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">Órgão Emissor:</label>
+                                            <input type="text" class="form-control" placeholder="Órgão Emissor:" id="orgao" name="orgao" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="sel1">UF:</label>
+                                            <select class="form-control" id="sel1">
+                                                <option>Acre</option>
+                                                <option>Alagoas</option>
+                                                <option>Amapá</option>
+                                                <option>Amazonas</option>
+                                                <option>Bahia</option>
+                                                <option>Ceará</option>
+                                                <option>Distrito Federal</option>
+                                                <option>Espírito Santo</option>
+                                                <option>Goiás</option>
+                                                <option>Maranhão</option>
+                                                <option>Mato Grosso do Sul</option>
+                                                <option>Mato Grosso</option>
+                                                <option>Minas Gerais</option>
+                                                <option>Pará</option>
+                                                <option>Paraíba</option>
+                                                <option>Paraná</option>
+                                                <option>Pernambuco</option>
+                                                <option>Piuí</option>
+                                                <option>Rio de Janeiro</option>
+                                                <option>Rio Grande do Norte</option>
+                                                <option>Rio Grande do Sul</option>
+                                                <option>Rondônia</option>
+                                                <option>Roraima</option>
+                                                <option>Santa Catarina</option>
+                                                <option>São Paulo</option>
+                                                <option>Sergipe</option>
+                                                <option>Tocantins</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">Título de Eleitor:</label>
+                                            <input type="text" class="form-control" placeholder="Título de Eleitor:" id="título_eleitor" name="título_eleitor" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">PIS/PASEP:</label>
+                                            <input type="text" class="form-control" placeholder="PIS/PASEP:" id="pis_pasep" name="pis_pasep" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">Grau de Instrução:</label>
+                                            <input type="text" class="form-control" placeholder="Grau de Instrução:" id="grau_instrucao" name="grau_instrucao" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="sel1">Tipo Sanguíneo:</label>
+                                            <select class="form-control" id="sel1">
+                                                <option>A+</option>
+                                                <option>A-</option>
+                                                <option>B+</option>
+                                                <option>B-</option>
+                                                <option>AB+</option>
+                                                <option>AB-</option>
+                                                <option>O+</option>
+                                                <option>O-</option>
+                                                <option>Outros</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">Nome do Pai:</label>
+                                            <input type="text" class="form-control" placeholder="Nome do Pai:" id="nome_pai" name="nome_pai" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">Nome da Mãe:</label>
+                                            <input type="text" class="form-control" placeholder="Nome da Mãe:" id="nome_mae" name="nome_mae" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">Endereço:</label>
+                                            <input type="text" class="form-control" placeholder="Endereço:" id="endereco" name="endereco" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">Número:</label>
+                                            <input type="number" class="form-control" placeholder="Número:" id="numero" name="numero" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">Complemento:</label>
+                                            <input type="text" class="form-control" placeholder="Complemento:" id="complemento" name="complemento" required>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">Bairro:</label>
+                                            <input type="text" class="form-control" placeholder="Bairro:" id="bairro" name="bairro" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">Município:</label>
+                                            <input type="text" class="form-control" placeholder="Município:" id="municipio" name="municipio" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="sel1">Estado:</label>
+                                            <select class="form-control" id="sel1">
+                                                <option>Acre</option>
+                                                <option>Alagoas</option>
+                                                <option>Amapá</option>
+                                                <option>Amazonas</option>
+                                                <option>Bahia</option>
+                                                <option>Ceará</option>
+                                                <option>Distrito Federal</option>
+                                                <option>Espírito Santo</option>
+                                                <option>Goiás</option>
+                                                <option>Maranhão</option>
+                                                <option>Mato Grosso do Sul</option>
+                                                <option>Mato Grosso</option>
+                                                <option>Minas Gerais</option>
+                                                <option>Pará</option>
+                                                <option>Paraíba</option>
+                                                <option>Paraná</option>
+                                                <option>Pernambuco</option>
+                                                <option>Piuí</option>
+                                                <option>Rio de Janeiro</option>
+                                                <option>Rio Grande do Norte</option>
+                                                <option>Rio Grande do Sul</option>
+                                                <option>Rondônia</option>
+                                                <option>Roraima</option>
+                                                <option>Santa Catarina</option>
+                                                <option>São Paulo</option>
+                                                <option>Sergipe</option>
+                                                <option>Tocantins</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">CEP:</label>
+                                            <input type="number" class="form-control" placeholder="CEP:" id="cep" name="cep" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">Telefone Residencial:</label>
+                                            <input type="tel" class="form-control" placeholder="Telefone Residencial:" id="tel_residencial" name="tel_residencial" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">Telefone Comercial:</label>
+                                            <input type="tel" class="form-control" placeholder="Telefone Comercial:" id="tel_comercial" name="tel_comercial" required>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">Telefone Celular:</label>
+                                            <input type="tel" class="form-control" placeholder="Telefone Celular:" id="tel_celular" name="tel_celular" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">Data da Aposentadoria:</label>
+                                            <input type="date" class="form-control" placeholder="Data da Aposentadoria:" id="data_aposentadoria" name="data_aposentadoria" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">Nº do processo da aposentadoria:</label>
+                                            <input type="date" class="form-control" placeholder="Nº do processo da aposentadoria:" id="processo_aposentadoria" name="processo_aposentadoria" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="sel1">Forma de Pagamento:</label>
+                                            <select class="form-control" id="sel1">
+                                                <option>Débito em Conta</option>
+                                                <option>Boleto</option>
+                                                <option>Recibo</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">Banco:</label>
+                                            <input type="date" class="form-control" placeholder="Banco:" id="banco" name="banco" required>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="usr">Nº do Banco:</label>
+                                            <input type="text" class="form-control" placeholder="Nº do Banco:" id="N_banco" name="N_banco" required>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">Nº da Agência:</label>
+                                            <input type="text" class="form-control" placeholder="Nº da Agência:" id="N_agencia" name="N_agencia" required>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">Nº da Conta:</label>
+                                            <input type="text" class="form-control" placeholder="Nº da Conta:" id="N_conta" name="N_conta" required>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="usr">E-mail:</label>
+                                            <input type="email" class="form-control" placeholder="Digite seu Email:" id="email" name="email" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                       
+                                        <label for="sexo">Serviços da AMAFRERJ:</label><br>
+                                        <div class="form-check-inline">
+                                            <label class="form-check-label">
+                                              <input type="radio" class="form-check-input" name="optradio">AMAFRERJ
+                                            </label>
+                                          </div>
+                                          <div class="form-check-inline">
+                                            <label class="form-check-label">
+                                              <input type="radio" class="form-check-input" name="optradio">Pós-Vida
+                                            </label>
+                                          </div>
+                                          <div class="form-check-inline disabled">
+                                            <label class="form-check-label">
+                                              <input type="radio" class="form-check-input" name="optradio" disabled>FUNDAFRERJ
+                                            </label>
+                                          </div>
+                                          <br>
+                                          <br>
+
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                      </form>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 p-3">
+
+                    <div id="accordion2">
+
+                        <div class="card p-3">
+                            <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseTwo">
+                                <a class="collapsed card-link text-center text-light" data-toggle="collapse" href="#collapseTwo">
+                                <h4>FICHA DE ADMISSÃO DE PENSIONISTA</h4>
+                                </a>
+                            </button>
+                            <div id="collapseTwo" class="collapse show pt-2" data-parent="#accordion2">
+                                <form action="/action_page.php" class="needs-validation">
+                                    <div class="form-group">
+                                        <label for="nome">Nome Completo:</label>
+                                        <input type="text" class="form-control" placeholder="Digite seu Nome Completo:" id="nome" name="nome" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="matricula">Matrícula OPERJ:</label>
+                                        <input type="text" class="form-control" placeholder="Digite sua Matrícula OPERJ:" id="matricula_operj" name="matricula_operj" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="matricula">Matrícula Lei 69/90:</label>
+                                        <input type="text" class="form-control" placeholder="Digite sua Matrícula Lei 69/90:" id="matricula_lei" name="matricula_lei" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="data_nascimento">Data de Nascimento:</label>
+                                        <input type="date" class="form-control" placeholder="Digite sua Matrícula:" id="data_nascimento" name="data_nascimento" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                    <label for="sexo">Sexo:</label><br>
+                                    <div class="form-check-inline">
+                                        <label class="form-check-label">
+                                          <input type="radio" class="form-check-input" name="optradio">Masculino
+                                        </label>
+                                      </div>
+                                      <div class="form-check-inline">
+                                        <label class="form-check-label">
+                                          <input type="radio" class="form-check-input" name="optradio">Feminino
+                                        </label>
+                                      </div>
+                                      <div class="form-check-inline disabled">
+                                        <label class="form-check-label">
+                                          <input type="radio" class="form-check-input" name="optradio" disabled>Não Opinar
+                                        </label>
+                                      </div>
+                                      <br>
+                                      <br>
+                                      <div class="form-group">
+                                        <label for="sel1">Estado Civil:</label>
+                                        <select class="form-control" id="sel1">
+                                          <option>Solteiro</option>
+                                          <option>Casado</option>
+                                          <option>Separado</option>
+                                          <option>Divorciado</option>
+                                          <option>Viúvo</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="usr">Nacionalidade:</label>
+                                        <input type="text" class="form-control" placeholder="Nacionalidade:" id="nacionalidade" name="nacionalidade" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="usr">Naturalidade:</label>
+                                        <input type="text" class="form-control" placeholder="Naturalidade:" id="naturaldiade" name="naturalidade" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="usr">Ocupação Principal:</label>
+                                        <input type="text" class="form-control" placeholder="Ocupação Principal:" id="ocupacao" name="ocupacao" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="usr">CPF:</label>
+                                        <input type="text" class="form-control" placeholder="Digite seu CPF:" id="cpf" name="cpf" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="usr">RG:</label>
+                                        <input type="text" class="form-control" placeholder="Digite seu RG:" id="rg" name="rg" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="data_nascimento">Data de Expedição:</label>
+                                        <input type="date" class="form-control" placeholder="Digite sua Matrícula:" id="data_expedicao" name="data_expedicao" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Órgão Emissor:</label>
+                                        <input type="text" class="form-control" placeholder="Órgão Emissor:" id="orgao" name="orgao" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="sel1">UF:</label>
+                                        <select class="form-control" id="sel1">
+                                            <option>Acre</option>
+                                            <option>Alagoas</option>
+                                            <option>Amapá</option>
+                                            <option>Amazonas</option>
+                                            <option>Bahia</option>
+                                            <option>Ceará</option>
+                                            <option>Distrito Federal</option>
+                                            <option>Espírito Santo</option>
+                                            <option>Goiás</option>
+                                            <option>Maranhão</option>
+                                            <option>Mato Grosso do Sul</option>
+                                            <option>Mato Grosso</option>
+                                            <option>Minas Gerais</option>
+                                            <option>Pará</option>
+                                            <option>Paraíba</option>
+                                            <option>Paraná</option>
+                                            <option>Pernambuco</option>
+                                            <option>Piuí</option>
+                                            <option>Rio de Janeiro</option>
+                                            <option>Rio Grande do Norte</option>
+                                            <option>Rio Grande do Sul</option>
+                                            <option>Rondônia</option>
+                                            <option>Roraima</option>
+                                            <option>Santa Catarina</option>
+                                            <option>São Paulo</option>
+                                            <option>Sergipe</option>
+                                            <option>Tocantins</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Título de Eleitor:</label>
+                                        <input type="text" class="form-control" placeholder="Título de Eleitor:" id="título_eleitor" name="título_eleitor" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Grau de Instrução:</label>
+                                        <input type="text" class="form-control" placeholder="Grau de Instrução:" id="grau_instrucao" name="grau_instrucao" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="sel1">Tipo Sanguíneo:</label>
+                                        <select class="form-control" id="sel1">
+                                            <option>A+</option>
+                                            <option>A-</option>
+                                            <option>B+</option>
+                                            <option>B-</option>
+                                            <option>AB+</option>
+                                            <option>AB-</option>
+                                            <option>O+</option>
+                                            <option>O-</option>
+                                            <option>Outros</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Nome do Pai:</label>
+                                        <input type="text" class="form-control" placeholder="Nome do Pai:" id="nome_pai" name="nome_pai" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Nome da Mãe:</label>
+                                        <input type="text" class="form-control" placeholder="Nome da Mãe:" id="nome_mae" name="nome_mae" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Nome do Ex Associado:</label>
+                                        <input type="text" class="form-control" placeholder="Nome do Ex Associado:" id="nome_associado" name="nome_associado" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="sel1">Qualidade do Pensionista:</label>
+                                        <select class="form-control" id="sel1">
+                                            <option>Conjuge</option>
+                                            <option>Companheiro(a)</option>
+                                            <option>Filho(a) maior de 21 anos</option>
+                                            <option>Filho(a) menor de 21 anos</option>
+                                            <option>Filho(a) inválido(a)</option>
+                                            <option>Neto(a)</option>
+                                            <option>Legatário(a)</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Nome do Ex Associado:</label>
+                                        <input type="text" class="form-control" placeholder="Nome do Ex Associado:" id="nome_associado" name="nome_associado" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Cota %:</label>
+                                        <input type="text" class="form-control" placeholder="Cota %:" id="cota" name="cota" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Número:</label>
+                                        <input type="number" class="form-control" placeholder="Número:" id="numero" name="numero" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Complemento:</label>
+                                        <input type="text" class="form-control" placeholder="Complemento:" id="complemento" name="complemento" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Bairro:</label>
+                                        <input type="text" class="form-control" placeholder="Bairro:" id="bairro" name="bairro" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Município:</label>
+                                        <input type="text" class="form-control" placeholder="Município:" id="municipio" name="municipio" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="sel1">Estado:</label>
+                                        <select class="form-control" id="sel1">
+                                            <option>Acre</option>
+                                            <option>Alagoas</option>
+                                            <option>Amapá</option>
+                                            <option>Amazonas</option>
+                                            <option>Bahia</option>
+                                            <option>Ceará</option>
+                                            <option>Distrito Federal</option>
+                                            <option>Espírito Santo</option>
+                                            <option>Goiás</option>
+                                            <option>Maranhão</option>
+                                            <option>Mato Grosso do Sul</option>
+                                            <option>Mato Grosso</option>
+                                            <option>Minas Gerais</option>
+                                            <option>Pará</option>
+                                            <option>Paraíba</option>
+                                            <option>Paraná</option>
+                                            <option>Pernambuco</option>
+                                            <option>Piuí</option>
+                                            <option>Rio de Janeiro</option>
+                                            <option>Rio Grande do Norte</option>
+                                            <option>Rio Grande do Sul</option>
+                                            <option>Rondônia</option>
+                                            <option>Roraima</option>
+                                            <option>Santa Catarina</option>
+                                            <option>São Paulo</option>
+                                            <option>Sergipe</option>
+                                            <option>Tocantins</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">CEP:</label>
+                                        <input type="number" class="form-control" placeholder="CEP:" id="cep" name="cep" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Telefone Residencial:</label>
+                                        <input type="tel" class="form-control" placeholder="Telefone Residencial:" id="tel_residencial" name="tel_residencial" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Telefone Comercial:</label>
+                                        <input type="tel" class="form-control" placeholder="Telefone Comercial:" id="tel_comercial" name="tel_comercial" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Telefone Celular:</label>
+                                        <input type="tel" class="form-control" placeholder="Telefone Celular:" id="tel_celular" name="tel_celular" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Data da Aposentadoria:</label>
+                                        <input type="date" class="form-control" placeholder="Data da Aposentadoria:" id="data_aposentadoria" name="data_aposentadoria" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Nº do processo da aposentadoria:</label>
+                                        <input type="date" class="form-control" placeholder="Nº do processo da aposentadoria:" id="processo_aposentadoria" name="processo_aposentadoria" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="sel1">Forma de Pagamento:</label>
+                                        <select class="form-control" id="sel1">
+                                            <option>Débito em Conta</option>
+                                            <option>Boleto</option>
+                                            <option>Recibo</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Banco:</label>
+                                        <input type="date" class="form-control" placeholder="Banco:" id="banco" name="banco" required>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="usr">Nº do Banco:</label>
+                                        <input type="text" class="form-control" placeholder="Nº do Banco:" id="N_banco" name="N_banco" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Nº da Agência:</label>
+                                        <input type="text" class="form-control" placeholder="Nº da Agência:" id="N_agencia" name="N_agencia" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">Nº da Conta:</label>
+                                        <input type="text" class="form-control" placeholder="Nº da Conta:" id="N_conta" name="N_conta" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="usr">E-mail:</label>
+                                        <input type="email" class="form-control" placeholder="Digite seu Email:" id="email" name="email" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                   
+                                    <label for="sexo">Serviços da AMAFRERJ:</label><br>
+                                    <div class="form-check-inline">
+                                        <label class="form-check-label">
+                                          <input type="radio" class="form-check-input" name="optradio">AMAFRERJ
+                                        </label>
+                                      </div>
+                                      <div class="form-check-inline">
+                                        <label class="form-check-label">
+                                          <input type="radio" class="form-check-input" name="optradio">Pós-Vida
+                                        </label>
+                                      </div>
+                                      <div class="form-check-inline disabled">
+                                        <label class="form-check-label">
+                                          <input type="radio" class="form-check-input" name="optradio" disabled>FUNDAFRERJ
+                                        </label>
+                                      </div>
+                                      <br>
+                                      <br>
+
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                  </form>
+                            </div>
+
+                </div>
+            </div>
+
+            </div>
+        </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+
+      <footer class="container-fluid pt-5 bg-blue">
+        <div class="row">
+            <div class="col-lg-2">
+                <ul class="nav flex-column text-light">
+                    <li class="nav-item pr-2"> Quem Somos </li>
+                    <li class="nav-item pr-2"> Contatos </li> 
+                    <li class="nav-item pr-2"> Imprensa </li> 
+                    <li class="nav-item"> AMAFRERJ </li> 
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <ul class="nav flex-column text-light">
+                    <li class="nav-item pr-2"> Diretoria </li>
+                    <li class="nav-item pr-2"> Palavras do Presidente </li> 
+                    <li class="nav-item pr-2"> Estatuto AFRERJ </li> 
+                    <li class="nav-item"> Links </li> 
+                </ul>
+            </div>
+            
+            <div class="col-lg-8">
+                <ul class="nav float-right">
+                    <li class="nav-item pr-2"> <img src="img/logo_ans.jpg"> </li>
+                    <li class="nav-item pr-2"> <img src="img/logo_febrafite.jpg"> </li> 
+                    <li class="nav-item pr-2"> <img src="img/logo_sinfrerj.jpg"> </li> 
+                    <li class="nav-item"> <img src="img/logo_unidas.jpg"> </li> 
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center footer-text">
+                <p class="text-light"><small>AFRERJ Todos os Direitos Reservados</small></p>
+                <p class="text-light"><small>R. Sete de Setembro, 55 / 25° andar - Centro - Rio de Janeiro/RJ - CEP:20.050-004</small></p>
+                <p class="text-light"><small>Tel: +55 21 3534-5555  |  Fax: +55 21 2252-5756</small></p>
+            </div>
+        </div>
+    </footer>
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>   
+</body>
+</html>

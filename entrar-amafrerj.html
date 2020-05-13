@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFRERJ - Quem somos</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            height: 500px;
+            background: linear-gradient(to top left, rgba(0, 128, 0),rgba(68, 189, 50));
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .login {
+            padding: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .nav-pills{
+            padding-top: 2em;
+            font-size: 1.4em;
+        }
+
+        .nav-pwd{
+            font-size: 0.7em;
+        }
+
+        .nav-pills .nav-link.active,
+        .nav-pills .show > .nav-link {
+        color: #fff;
+        background-color: #28a745;
+        }
+
+
+    </style>
+    
+</head>
+<body>
+
+    <div class="container-fluid pt-5">
+
+        <div class="row d-flex pt-5 justify-content-center">
+
+
+            <div class="col-lg-2 bg-green login">
+                
+                <h2 class="text-light text-center">AMAFRERJ</h2>
+                <p class="text-light">Escolha seu modo de Login:</p>
+                <ul class="nav nav-pills d-block text-center">
+                    <li class="nav-item">
+                      <a class="nav-link active text-light" data-toggle="pill" href="#prestador">Prestador</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" data-toggle="pill" href="#beneficiario">Beneficiário</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-lg-4 bg-light login shadow-lg">
+
+                <div class="tab-content pt-5">
+
+                    <div class="tab-pane container active" id="prestador">
+
+                        <form action="/action_page.php" class="needs-validation" novalidate>
+                            <div class="form-group">
+                                <label for="uname">Login:</label>
+                                <input type="text" class="form-control" id="login" placeholder="Digite seu Login:" name="login" required>
+                                <div class="valid-feedback">Coreto.</div>
+                                <div class="invalid-feedback">Por favor, preencha este campo.</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Senha:</label>
+                                <input type="password" class="form-control" id="senha_login" placeholder="Digite sua Senha" name="senha_login" required>
+                                <div class="valid-feedback">Correto.</div>
+                                <div class="invalid-feedback">Por favor, preencha este campo.</div>
+                                <a class="navbar-brand text-secondary float-right nav-pwd" href="">Esqueci minha Senha</a>
+                            </div>
+                            <div class="form-group form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="remember" required> Lembre-me.
+                                    <div class="valid-feedback">Correto.</div>
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Entrar</button>
+                        </form>
+
+                    </div>
+                    <div class="tab-pane container fade" id="beneficiario">
+                        
+                        <form action="/action_page.php" class="needs-validation" novalidate>
+                            <div class="form-group">
+                                <label for="uname">Nº da Carteira:</label>
+                                <input type="text" class="form-control" id="n_carteira" placeholder="Digite o Número da Carteira:" name="n_carteira" required>
+                                <div class="valid-feedback">Correto.</div>
+                                <div class="invalid-feedback">Por favor, preencha este campo.</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Senha:</label>
+                                <input type="password" class="form-control" id="senha_carteira" placeholder="Digite sua Senha" name="senha_carteira" required>
+                                <div class="valid-feedback">Correto.</div>
+                                <div class="invalid-feedback">Por favor, preencha este campo.</div>
+                                <a class="navbar-brand text-secondary float-right nav-pwd" href="">Esqueci minha Senha</a>
+                            </div>
+                            <div class="form-group form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="remember" required> Lembre-me.
+                                    <div class="valid-feedback">Correto.</div>
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Entrar</button>
+                        </form>
+                        
+                    </div>
+                   
+                    <a class="navbar-brand text-primary float-right" href="amaferj.html">Voltar para Página Inicial</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+      
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<script>
+    // Disable form submissions if there are invalid fields
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Get the forms we want to add validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+    </script>
+
+</body>
+</html>

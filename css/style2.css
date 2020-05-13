@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(242, 242, 242, 0.5);
+    font-family: 'PT Sans', sans-serif;
+}
+
+.bg-green{
+    background-color: #008000;
+}
+
+.bg-green2{
+    background-color: #44bd32;
+}
+
+.text-success {
+    color: #008000 !important;
+  }
+  
+  a.text-success:hover, a.text-success:focus {
+    color: #00b300 !important;
+  }
+
+header{
+    height: 500px;
+    padding-top: 6em;
+    background-image: linear-gradient(rgba(68, 189, 50, 0.65),rgba(68, 189, 50, 0.65)), url("../img/amafrerj-fundo.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header h1{
+    font-size: 6em;
+    color: #fff;
+}
+
+.seila li{
+    margin: 0.5em;
+}
+
+.card{
+    width: 250px;
+    height: 330px;
+}
+
+.card p{
+    font-size: 0.9em;
+}
+
+.card li{
+    line-height: 1.2;
+}
